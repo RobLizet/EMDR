@@ -430,6 +430,32 @@ margin-bottom: 8px;
 
 .timeline-item p { font-size: 14px; color: var(–text-muted); line-height: 1.7; }
 
+.video-wrapper {
+position: relative;
+padding-top: 56.25%;
+background: #000;
+}
+
+.video-wrapper iframe {
+position: absolute;
+top: 0; left: 0;
+width: 100%; height: 100%;
+border: none;
+}
+
+.video-info { padding: 20px; }
+
+.video-info h4 {
+font-family: ‘Cormorant Garamond’, serif;
+font-size: 1.15rem;
+font-weight: 400;
+color: #fff;
+margin-bottom: 8px;
+line-height: 1.4;
+}
+
+.video-info p { font-size: 13px; color: var(–text-muted); line-height: 1.6; }
+
 /* YOUTUBE LINK CARDS */
 .yt-thumb {
 height: 160px;
@@ -1068,80 +1094,68 @@ header { padding: 40px 20px 30px; }
 <div class="video-grid">
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#1a2540,#0d3060)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">💬 Uitleg & Verwachting</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/hKrfH43srg8" title="EMDR uitleg volwassenen" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Nederlands – Uitleg</div>
-      <h4>EMDR uitgelegd – Wat kun je verwachten?</h4>
-      <p>Duidelijke uitleg over hoe een EMDR-sessie verloopt en wat je als cliënt kunt verwachten.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=EMDR+therapie+uitleg+Nederlands" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Volwassenen – Uitleg</div>
+      <h4>Wat is EMDR? – Uitleg voor volwassenen</h4>
+      <p>Duidelijke uitleg over wat EMDR is, hoe het werkt en wat je kunt verwachten tijdens een sessie.</p>
     </div>
   </div>
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#1a1a40,#2d1060)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">🧠 Brein & Wetenschap</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/IEWE1IwFnRM" title="EMDR sessie volwassenen" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Brein & Trauma</div>
-      <h4>Hoe EMDR werkt in het brein</h4>
-      <p>Wetenschappelijke uitleg over wat er in de hersenen gebeurt tijdens EMDR-verwerking.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=EMDR+brein+werking+trauma+verwerking" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Volwassenen – Sessie</div>
+      <h4>Een EMDR-sessie voor volwassenen in beeld</h4>
+      <p>Zie hoe een EMDR-behandeling er in de praktijk uitziet bij volwassenen.</p>
     </div>
   </div>
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#0d2535,#0a4040)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">🎬 Sessie Demo</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/1wrKTh1YxvA" title="EMDR jongeren" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Demo</div>
-      <h4>Een echte EMDR-sessie in beeld</h4>
-      <p>Zie hoe een EMDR-sessie er in de praktijk uitziet, met uitleg van therapeut en cliënt.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=EMDR+sessie+voorbeeld+therapeut" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Jongeren 12–18 jaar</div>
+      <h4>EMDR voor jongeren uitgelegd</h4>
+      <p>Hoe EMDR werkt voor jongeren van 12 tot 18 jaar, met uitleg en een concreet voorbeeld.</p>
     </div>
   </div>
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#251525,#4a1060)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">👩‍⚕️ Ervaringen</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/I4HM1fCQeqY" title="EMDR animatie kinderen" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Persoonlijke ervaringen</div>
-      <h4>Mensen vertellen over hun EMDR-traject</h4>
-      <p>Persoonlijke verhalen van mensen die EMDR hebben gevolgd en wat het hen heeft opgeleverd.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=EMDR+ervaring+verhaal+trauma+verwerkt" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Animatie</div>
+      <h4>EMDR uitgelegd via animatie – Tim en het wonder EMDR</h4>
+      <p>Een heldere animatievideo die uitlegt hoe EMDR werkt. Gebaseerd op het boek "Tim en het wonder EMDR".</p>
     </div>
   </div>
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#253520,#1a5020)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">🏛️ Francine Shapiro</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/N9zLRIWHaT4" title="EMDR kinderen 8-12" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Geschiedenis</div>
-      <h4>Francine Shapiro – De grondlegger van EMDR</h4>
-      <p>De ontdekster van EMDR vertelt het verhaal achter haar toevallige ontdekking en de ontwikkeling van de methode.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=Francine+Shapiro+EMDR+history+discovery" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Kinderen 8–12 jaar</div>
+      <h4>EMDR voor kinderen van 8 tot 12 jaar</h4>
+      <p>Een begrijpelijke uitleg van EMDR voor kinderen, met voorbeelden en ervaringen.</p>
     </div>
   </div>
 
   <div class="video-card">
-    <div class="yt-thumb" style="background:linear-gradient(135deg,#352515,#604010)">
-      <div class="yt-play">▶</div>
-      <div class="yt-topic">🌿 Veilige Plek Oefening</div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/hKrfH43srg8?start=0" title="EMDR herhaling" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="video-info">
-      <div class="card-tag">Zelfhulp</div>
-      <h4>Veilige plek oefening – EMDR voorbereiding</h4>
-      <p>Begeleide oefening voor de 'veilige plek' techniek, bruikbaar als ondersteuning tussen sessies door.</p>
-      <a class="yt-btn" href="https://www.youtube.com/results?search_query=EMDR+veilige+plek+oefening+geleide+meditatie" target="_blank" rel="noopener">▶ Bekijk op YouTube</a>
+      <div class="card-tag">Extra – Verdieping</div>
+      <h4>EMDR nader bekeken – Voor jezelf en je omgeving</h4>
+      <p>Aanvullende uitleg over EMDR, hoe je er zelf mee omgaat en hoe je dit bespreekt met mensen om je heen.</p>
     </div>
   </div>
 
